@@ -386,7 +386,6 @@
 "Assets/Scripts/DetectCubeOnObstacles.cs"
 "Assets/Scripts/DetectCubeOnPlayer.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/SwipeDetector.cs"
 "Assets/Scripts/TriggerCubesHolder.cs"
 -langversion:9.0
 

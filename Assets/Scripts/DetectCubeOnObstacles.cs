@@ -11,7 +11,6 @@ public class DetectCubeOnObstacles : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _boxCollider = GetComponent<BoxCollider>();
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent<DetectCubeOnPlayer>(out var detectCubeOnPlayer))
@@ -19,9 +18,7 @@ public class DetectCubeOnObstacles : MonoBehaviour
             EnableRigidbody();
             detectCubeOnPlayer.InvokeDetectEvent();
         }
-        
     }
-
     private void EnableRigidbody()
     {
         _boxCollider.isTrigger = false;
