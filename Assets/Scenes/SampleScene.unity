@@ -12771,6 +12771,10 @@ PrefabInstance:
       value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 1320086058949730733, guid: bbf30276196609c40b2a7b6ac80970a7, type: 3}
+      propertyPath: _sensevity
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320086058949730733, guid: bbf30276196609c40b2a7b6ac80970a7, type: 3}
       propertyPath: _defaultSpeed
       value: 10
       objectReference: {fileID: 0}

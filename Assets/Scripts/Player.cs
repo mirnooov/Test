@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
             var distance = Vector3.Distance(_startMousePosition,Input.mousePosition);
             if (distance > MINDISTANCESWIPE)
             {
-                transform.Rotate(0, -(Input.GetAxis("Mouse X") * _sensevity), 0);
+                transform.Rotate(0, -(Input.GetAxis("Mouse X") * (_sensevity * Time.deltaTime)), 0);
                 _currentSpeed = _defaultSpeed;
             }
             else if (!IsStop)
