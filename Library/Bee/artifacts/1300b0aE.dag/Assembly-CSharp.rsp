@@ -383,10 +383,19 @@
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SimpleElevator.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/SpawnInCircle.cs"
 "Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs"
+"Assets/Scripts/BorderCube.cs"
+"Assets/Scripts/CFX_AutoDestructShuriken.cs"
 "Assets/Scripts/DetectCubeOnObstacles.cs"
 "Assets/Scripts/DetectCubeOnPlayer.cs"
+"Assets/Scripts/DetectPlayer.cs"
+"Assets/Scripts/FinishDetect.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/PointText.cs"
+"Assets/Scripts/PointTextSpawner.cs"
+"Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/StartPoint.cs"
 "Assets/Scripts/TriggerCubesHolder.cs"
+"Assets/Scripts/WinPanel.cs"
 -langversion:9.0
 
 /deterministic
